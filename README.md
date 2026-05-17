@@ -14,7 +14,7 @@ A ferramenta simula cenários de servidores em segundo plano (redirecionando o f
 
 ## 🚀 Como Funciona?
 
-O core do script utiliza o time.perf_counter_ns() para obter o nível máximo de precisão que o hardware permite. Ele limpa o gargalo físico da tela e extrai métricas estatísticas robustas para anular as distorções causadas pelo Sistema Operacional:
+O core da ferramenta utiliza o time.perf_counter_ns() para obter o nível máximo de precisão que o hardware permite. Ele limpa o gargalo físico da tela e extrai métricas estatísticas robustas para anular as distorções causadas pelo Sistema Operacional:
 
 * *Tempo Mínimo:* A velocidade real da CPU em uma execução 100% limpa.
 * *Mediana (Real):* O centro estável dos testes, imune a picos de lentidão do SO.
@@ -46,9 +46,5 @@ Embora  pareça uma ferramenta inofensiva de medição de desempenho, o conceito
 
 ​Resumo Cibersegurança
 A ferramenta faz em nanoescala é o equivalente digital a um ladrão de cofres antigo que encosta o ouvido no metal para ouvir o clique dos pinos internos da tranca. Você não está olhando o dado diretamente, mas o comportamento físico do hardware enquanto processa o dado entrega o que está acontecendo lá dentro.
-
-
-
- Desvio Padrão    : ±9781.56 ns (Instabilidade do ambiente)
  Pico de Ruído    : 518400 ns (Interrupção do SO)
 ---------------------------------------------------------------------------
