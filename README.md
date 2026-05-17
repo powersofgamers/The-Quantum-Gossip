@@ -10,8 +10,6 @@ Um micro-benchmarker de baixo nível em Python projetado para espiar e medir a l
 
 A ferramenta simula cenários de servidores em segundo plano (redirecionando o fluxo para o os.devnull) para capturar o tempo lógico puro do interpretador e analisar como variações físicas no processamento de strings podem expor o sistema a *Ataques de Canal Lateral (Timing Attacks)*.
 
-
-
 ## 🚀 Como Funciona?
 
 O core da ferramenta utiliza o time.perf_counter_ns() para obter o nível máximo de precisão que o hardware permite. Ele limpa o gargalo físico da tela e extrai métricas estatísticas robustas para anular as distorções causadas pelo Sistema Operacional:
@@ -44,7 +42,6 @@ Embora  pareça uma ferramenta inofensiva de medição de desempenho, o conceito
 ​Para os defensores (Blue Team / Desenvolvedores de Software Seguro), scripts com essa lógica de micro-benchmarking são vitais para testar se algoritmos críticos são seguros.
 ​Para mitigar ataques de tempo, funções de segurança precisam rodar em Tempo Constante. Ou seja, não importa se a senha está certa ou errada, ou se a string é longa ou curta, o tempo de resposta precisa ser exatamente o mesmo. Os desenvolvedores usam códigos parecidos com o seu para garantir que o Desvio Padrão seja o mais próximo de zero possível em funções de login.
 
-​Resumo Cibersegurança
-A ferramenta faz em nanoescala é o equivalente digital a um ladrão de cofres antigo que encosta o ouvido no metal para ouvir o clique dos pinos internos da tranca. Você não está olhando o dado diretamente, mas o comportamento físico do hardware enquanto processa o dado entrega o que está acontecendo lá dentro.
- Pico de Ruído    : 518400 ns (Interrupção do SO)
----------------------------------------------------------------------------
+A Ferramenta faz em nanoescala é o equivalente digital a um ladrão de cofres antigo que encosta o ouvido no metal para ouvir o clique dos pinos internos da tranca. Você não está olhando o dado diretamente, mas o comportamento físico do hardware enquanto processa o dado entrega o que está acontecendo lá dentro.
+
+​entrega o que está acontecendo lá dentro.
