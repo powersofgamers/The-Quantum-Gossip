@@ -8,7 +8,7 @@
 
 Um micro-benchmarker de baixo nível em Python projetado para espiar e medir a latência oculta de buffers de entrada/saída (I/O) e alocação de memória em escala nanométrica. 
 
-O script simula cenários de servidores em segundo plano (redirecionando o fluxo para o os.devnull) para capturar o tempo lógico puro do interpretador e analisar como variações físicas no processamento de strings podem expor o sistema a *Ataques de Canal Lateral (Timing Attacks)*.
+A ferramenta simula cenários de servidores em segundo plano (redirecionando o fluxo para o os.devnull) para capturar o tempo lógico puro do interpretador e analisar como variações físicas no processamento de strings podem expor o sistema a *Ataques de Canal Lateral (Timing Attacks)*.
 
 
 
