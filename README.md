@@ -43,5 +43,3 @@ Embora  pareça uma ferramenta inofensiva de medição de desempenho, o conceito
 ​Para mitigar ataques de tempo, funções de segurança precisam rodar em Tempo Constante. Ou seja, não importa se a senha está certa ou errada, ou se a string é longa ou curta, o tempo de resposta precisa ser exatamente o mesmo. Os desenvolvedores usam códigos parecidos com o seu para garantir que o Desvio Padrão seja o mais próximo de zero possível em funções de login.
 
 A Ferramenta faz em nanoescala é o equivalente digital a um ladrão de cofres antigo que encosta o ouvido no metal para ouvir o clique dos pinos internos da tranca. Você não está olhando o dado diretamente, mas o comportamento físico do hardware enquanto processa o dado entrega o que está acontecendo lá dentro.
-
-​entrega o que está acontecendo lá dentro.
